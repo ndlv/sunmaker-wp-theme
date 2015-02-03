@@ -48,15 +48,13 @@
                       <img src="./wp-content/themes/sun/img_src/search_glass.png">
 
                   </div>
-
-
+              </div>
           </div>
-
-
-
-
+          <div id="tophr">
+              <hr>
           </div>
       </nav>
+
 
 
   

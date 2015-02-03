@@ -210,11 +210,52 @@ ul{
     height:auto;
 }
 
-
-.article{
+.container{
     position:relative;
     z-index:1;
-    bottom:690px;
+    bottom:600px;
+}
+.article{
+    position:relative;
+    z-index:inherit;
+    bottom:90px;
     background-color: white;
     border-left: 2px solid #ffd23A;
+}
+
+
+.leftbar , .rightbar {
+    position:relative;
+    z-index:inherit;
+    top:30px;
+}
+
+#tophr hr {
+    position:relative;
+    z-index:10;
+    border:0;
+    top:35px;
+    width:101.5%;
+
+    margin:0;
+    margin-left:-15px;
+
+    border-bottom:1px solid #ffd23A;
+    background:#ffd23A;
+
+
+}
+
+.arrow img, .share img{
+    width:50px;
+    height:auto;
+}
+
+.small-sun img {
+    position:relative;
+    z-index:inherit;
+    left:15px;
+    top:5px;
+    width:40px;
+    height:auto;
 }

@@ -1,4 +1,7 @@
 
+
+
+
       <?php get_header(); ?>
 
       <div id="topSection">
@@ -9,24 +12,51 @@
 
       </div>
 
+
+
     <div class="container">
 
-      <div class="row col">
-      <div class="article col-sm-offset-2 col-sm-7">
-          <?php $the_query = new WP_Query( 'showposts=1' ); ?>
 
-          <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+       <div class="row col">
 
-              <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
+          <div class="leftbar col-sm-2">
+            <div class="col-sm-6 arrow">
+                  <img src="./wp-content/themes/sun/img_src/left-arrow.png">
 
-              <?php the_content(__('(more…)')); ?>
+            </div>
+            <div class="col-sm-6  small-sun">
+                <img src="./wp-content/themes/sun/img_src/small-sun.png">
+            </div>
 
-          <?php endwhile;?>
+          </div>
+
+          <div class="article  col-sm-7">
+              <?php $the_query = new WP_Query( 'showposts=1' ); ?>
+
+              <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+                  <h1><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
+
+                  <?php the_content(__('(more…)')); ?>
+
+              <?php endwhile;?>
 
 
           </div>
-          <div class="col-sm-2">
-          </div>
+
+
+          <div class="col-sm-3 rightbar">
+              <div class="row">
+                  <div class="col-sm-4 share">
+                      <!-- share image -->
+                      <img src="./wp-content/themes/sun/img_src/share.png">
+                  </div>
+                  <div class="col-sm-offset-4 col-sm-4 arrow">
+                      <img src="./wp-content/themes/sun/img_src/right-arrow.png">
+                  </div>
+              </div>
+         </div>
+
 
 
       </div>
