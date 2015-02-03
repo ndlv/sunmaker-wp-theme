@@ -5,6 +5,10 @@
 
       </div>
 
+      <div id="stripes">
+
+      </div>
+
     <div class="container">
 
       <div class="row col">

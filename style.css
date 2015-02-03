@@ -19,18 +19,22 @@ This simple theme was built using the example Bootstrap theme "Basic marketing s
 
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
-
+@import url(http://fonts.googleapis.com/css?family=Kreon:300,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 
 body {
 
     color:black;
-    font-family: "Oswald" , "Open Sans",sans-serif; font-weight: 400;
+    font-family: "Kreon" , "Open Sans",sans-serif; font-weight: 300;
+    font-size: 16pt;
 
 }
 
 a {
     text-decoration: none;
 }
+
+
 
 
 h1 {
@@ -108,7 +112,8 @@ h2 {
 
 
  .navbar {
-	background-color: #1E1B2D;
+     font-family: "Open Sans",sans-serif; font-weight: 400;
+     background-color: #1E1B2D;
 	height:130px;
     width:100%;
 }
@@ -163,7 +168,7 @@ ul{
 
 #topSection  {
 
-    background-image: url("./img_src//22_solarsiter014.jpg") ;
+    background-image: url("./img_src/22_solarsiter014.jpg") ;
 
     position:relative;
     z-index:-1;
@@ -189,6 +194,17 @@ ul{
     position: relative;
 }
 
+
+#stripes{
+
+    background-image:url("./img_src/grey_stripes.png");
+    width:100%;
+     height:600px;
+    position:relative;
+    z-index:-1;
+
+}
+
 #top-pictures img{
     width:110%;
     height:auto;
@@ -198,7 +214,7 @@ ul{
 .article{
     position:relative;
     z-index:1;
-    bottom:90px;
+    bottom:690px;
     background-color: white;
     border-left: 2px solid #ffd23A;
 }
