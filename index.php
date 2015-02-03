@@ -1,7 +1,14 @@
 
       <?php get_header(); ?>
 
-      <div class="row">
+      <div id="topSection">
+
+      </div>
+
+    <div class="container">
+
+      <div class="row col">
+      <div class="article col-sm-offset-2 col-sm-7">
           <?php $the_query = new WP_Query( 'showposts=1' ); ?>
 
           <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
@@ -12,11 +19,24 @@
 
           <?php endwhile;?>
 
+
+          </div>
+          <div class="col-sm-2">
+          </div>
+
+
+      </div>
+
+      <div class="row">
+
+              <?php get_footer(); ?>
+
+
       </div>
 
 
 
-
+    </div>
 
 
 
@@ -52,5 +72,5 @@
 
 
 
-      <?php get_footer(); ?>
+
 

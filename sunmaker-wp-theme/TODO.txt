@@ -1,0 +1,33 @@
+
+        TODO
+
+
+DEVELOPMENT STEPS
+
+
+1. Building the idea, make the first design, wireframes and real overview with illustrator.
+Everything follows the 12 col grid.  DONE
+
+2. Building the squeletton of the theme ( header.php, index.php ... )
+Done
+
+
+(Here starts the real WEB DESIGN )
+
+
+3. Have a working theme for the article view. The menu bar on top and the article.
+Have a working button to go to the previous and next article.
+
+Structure to adopt in  a wordpress post so that everything works
+
+Title : (won't be displayed, only here for wordpress )
+
+
+
+
+4. Style the host page, that enable the user to overview the latest article.
+
+
+5. Add the note block in the article view, with the button interaction.
+
+

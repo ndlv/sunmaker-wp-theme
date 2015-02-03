@@ -1,9 +1,12 @@
       <hr>
 
       <div class="row">
+          <div class="col-sm-offset-2 col-sm-7">
           <footer>
               <p>&copy; Company 2012</p>
           </footer>
+          </div>
+
           <?php wp_footer(); ?>
       </div>
 

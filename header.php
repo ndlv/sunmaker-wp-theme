@@ -18,30 +18,49 @@
   </head>
   <body>
 
-  <div class="row">
-      <div class="navbar navbar-inverse navbar-fixed-top">
-          <div class="navbar-inner">
-              <div class="container">
-                  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                      <span class="icon-bar">bb</span>
-                      <span class="icon-bar">bbb</span>
-                      <span class="icon-bar">bbbb</span>
-                  </a>
-                  <a class="brand" href="<?php echo site_url(); ?>"><?php bloginfo('name'); ?></a>
-                  <div class="nav-collapse collapse">
-                      <ul class="nav">
 
-                          <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
 
-                      </ul>
-                  </div><!--/.nav-collapse -->
-              </div>
+      <nav class="navbar navbar-inverse col-sm-12">
+          <div class="row big">
+              <div class="col-sm-12">
+                  <div class="col-sm-3 logo">
+                      <!--logo -->
+                      <img src="./wp-content/themes/sun/img_src/sunmakers_logo.png">
+
+                  </div>
+
+                  <div id="menu-item">
+                      <div class="col-sm-offset-1 col-sm-1">
+                          <a href="#">Story</a>
+                      </div>
+                      <div class="col-sm-2">
+                          <a href="#">Cover Story</a>
+                      </div>
+                      <div class="col-sm-2">
+                          <a href="#">Build it</a>
+
+                      </div>
+
+                  </div>
+
+                  <div id="search" class="col-sm-offset-2 col-sm-1">
+                      <!--logo -->
+                      <img src="./wp-content/themes/sun/img_src/search_glass.png">
+
+                  </div>
+
+
           </div>
-      </div>
 
-  </div>
+
+
+
+          </div>
+      </nav>
+
+
   
 
- <div class="container">
+
 
 
